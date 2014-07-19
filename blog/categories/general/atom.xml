@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: General | My Octopress Blog]]></title>
+  <title><![CDATA[Category: General | On His Bike]]></title>
   <link href="http://ororker.github.io/blog/categories/general/atom.xml" rel="self"/>
   <link href="http://ororker.github.io/"/>
-  <updated>2014-07-19T15:48:49+01:00</updated>
+  <updated>2014-07-19T16:38:11+01:00</updated>
   <id>http://ororker.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Paul Lamarra]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>

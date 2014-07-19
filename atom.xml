@@ -1,26 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[My Octopress Blog]]></title>
+  <title><![CDATA[On His Bike]]></title>
   <link href="http://ororker.github.io/atom.xml" rel="self"/>
   <link href="http://ororker.github.io/"/>
-  <updated>2014-07-19T15:48:49+01:00</updated>
+  <updated>2014-07-19T16:38:11+01:00</updated>
   <id>http://ororker.github.io/</id>
   <author>
-    <name><![CDATA[Your Name]]></name>
+    <name><![CDATA[Paul Lamarra]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Hello]]></title>
-    <link href="http://ororker.github.io/blog/2014/07/19/hello/"/>
-    <updated>2014-07-19T15:17:09+01:00</updated>
-    <id>http://ororker.github.io/blog/2014/07/19/hello</id>
-    <content type="html"><![CDATA[<p>Hello World!!!</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Brompton Bags v City Freedom Trailer]]></title>
