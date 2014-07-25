@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: It | On His Bike]]></title>
+  <link href="http://ororker.github.io/blog/categories/it/atom.xml" rel="self"/>
+  <link href="http://ororker.github.io/"/>
+  <updated>2014-07-25T20:47:17+01:00</updated>
+  <id>http://ororker.github.io/</id>
+  <author>
+    <name><![CDATA[Paul Lamarra]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[PostgreSql on Docker]]></title>
+    <link href="http://ororker.github.io/blog/2014/07/25/postgresql-docker/"/>
+    <updated>2014-07-25T11:11:00+01:00</updated>
+    <id>http://ororker.github.io/blog/2014/07/25/postgresql-docker</id>
+    <content type="html"><![CDATA[<h2>PS</h2>
+
+<p>To see what docker containers are running execute the following:
+<code>
+sudo docker ps
+</code>
+If a docker image is running then you’ll see output like the following:
+<code>
+CONTAINER ID        IMAGE                          COMMAND                CREATED             STATUS              PORTS                      NAMES
+fa2f01bc791a        paintedfox/postgresql:latest   /scripts/start.sh /s   3 minutes ago       Up 3 minutes        127.0.0.1:5432-&gt;5432/tcp   mad_sammet          
+</code></p>
+
+<h2>RUN</h2>
+
+<p>To start the postgresql image paintedfox, run the following command:
+<code>
+CID=$(sudo docker run -d  -p 127.0.0.1:5432:5432  -v /data:/data   -e USER="super"  -e DB="test"  -e PASS="Password1"  paintedfox/postgresql);
+</code></p>
+
+<h2>LOGS</h2>
+
+<p>To verify that the DB has started successfully run the following command:
+<code>
+sudo docker logs $CID
+</code></p>
+
+<h2>STOP</h2>
+
+<p>To stop the container running the PostgreSql DB:
+<code>
+sudo docker stop $CID
+</code></p>
+
+<h2>SquirrelSql</h2>
+
+<p>You can now connect to the postgresql server from SquirrelSql using the following parameters:
+<code>
+URL: jdbc:postgresql:test
+User: super
+Password: Password1
+</code></p>
+]]></content>
+  </entry>
+  
+</feed>

@@ -4,7 +4,7 @@
   <title><![CDATA[On His Bike]]></title>
   <link href="http://ororker.github.io/atom.xml" rel="self"/>
   <link href="http://ororker.github.io/"/>
-  <updated>2014-07-19T16:54:05+01:00</updated>
+  <updated>2014-07-25T20:47:17+01:00</updated>
   <id>http://ororker.github.io/</id>
   <author>
     <name><![CDATA[Paul Lamarra]]></name>
@@ -14,55 +14,62 @@
 
   
   <entry>
-    <title type="html"><![CDATA[The Mayenne Canal]]></title>
-    <link href="http://ororker.github.io/blog/2014/07/19/the-mayenne-canal/"/>
-    <updated>2014-07-19T16:42:53+01:00</updated>
-    <id>http://ororker.github.io/blog/2014/07/19/the-mayenne-canal</id>
-    <content type="html"><![CDATA[<p>If I were to live this life again it would be as a lock keeper on the river Mayenne that rises in Normandy and flows south almost unnoticed to join with the Sarthe and the Loire.</p>
+    <title type="html"><![CDATA[PostgreSql on Docker]]></title>
+    <link href="http://ororker.github.io/blog/2014/07/25/postgresql-docker/"/>
+    <updated>2014-07-25T11:11:00+01:00</updated>
+    <id>http://ororker.github.io/blog/2014/07/25/postgresql-docker</id>
+    <content type="html"><![CDATA[<h2>PS</h2>
 
-<p>Out of reach of the wake of life I would enjoy what strikes me as the ideal existence in my charming two-bedroomed house on a peaceful riverbank. With no rent to pay, a modest salary of 600 euros per month and no boss in the immediate vicinity it all seems to me to add up to a whole lot of priceless contentment.</p>
+<p>To see what docker containers are running execute the following:</p>
 
-<p>In the meantime however it did seem that there would be enough happiness cycling along the towpath between Daon in the south to the town of Mayenne in the north – a distance of 85 km that was easily covered in a leisurely weekend.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Brompton Bags v City Freedom Trailer]]></title>
-    <link href="http://ororker.github.io/blog/2013/11/01/brompton/"/>
-    <updated>2013-11-01T11:11:00+00:00</updated>
-    <id>http://ororker.github.io/blog/2013/11/01/brompton</id>
-    <content type="html"><![CDATA[<p>I know I risk opening up the always controversial bags vs trailer debate but nonetheless I am going to throw in my tuppence worth. When on tours with my Brompton I have used combinations of the T-bag, Brompton rack pack, the O-bag and the City Freedom trailer and this is what I have found. I like a neat bike and one that does not look encumbered. If it doesn&rsquo;t fit in, it generally doesn&rsquo;t go. With the bag combination I have on occasions had to resort to wearing a small rucksack.</p>
-
-<h2>Brompton Bags</h2>
-
-<ol>
-<li><p>The rack pack can, at a squeeze, carry my Terra Nova Superlite Voyager (minus poles), an ultra-lite synthetic sleeping bag, a silk liner and a Thermarest which means I can get set up at the end of the day without unpacking everything else and leave the tent up to the last moment.</p></li>
-<li><p>The T-bag takes everything else. It&rsquo;s just broad enough to take the poles. My kitchen consists of an MSR Alpine kitchen kit, a Primus Ti stove, pocket rocket gas stove, one gas cannister and two unleaded fuel bottles. It&rsquo;s a squeeze but it fits.</p></li>
-<li><p>Top of T-bag is a useful spot to place Power Monkey Extreme Solar Panels especially when cycling south. Strapping solar panel to rack pack is not ideal.</p></li>
-<li><p>Airport check in staff do not look a Brompton bags with bewilderment.</p></li>
-<li><p>I struggle to store a warm jacket and frequently I have to strap it to the top when solar panel not in use. I have to make do with a lightweight cycle jacket.</p></li>
-<li><p>When using the T-bag with the rack pack I need three hands when the bike is folded  and I am getting on a train say.</p></li>
-<li><p>Bike slightly unstable when parked and overfilled T-bag (which it nearly always is) can impede steering.</p></li>
-<li><p>Water bottles have to be stored in mesh pockets which can be a tight squeeze when T-bag is full.</p></li>
-<li><p>Nowhere to store a camera for easy access. Pockets OK for compact but not much bigger.</p></li>
-<li><p>Appear to be reasonably waterproof and hard wearing. Fitting the waterproof cover to T-bag when full is a bit of a faff but it works and I do use it as it improves my visibleness in inclement weather.</p></li>
-</ol>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo docker ps</span></code></pre></td></tr></table></div></figure>
 
 
-<h2>City Freedom Trailer</h2>
+<p>If a docker image is running then you’ll see output like the following:</p>
 
-<ol>
-<li><p>Capacious single section where I can see everything at a glance. Tent poles fit comfortably.</p></li>
-<li><p>I pack it differently everyday for some reason. Sometimes I seem to lose space. A bit of rummaging is necessary.</p></li>
-<li><p>The two wheeled trailer is very stable and the drag doesn&rsquo;t seem to be a huge problem. I have slight misgivings about the bracing axle underneath which is held in place by a velcro strap. It has not however failed. When folded it is floppy and difficult to carry. Cable ties or bungees are usually necessary to keep everything in place.</p></li>
-<li><p>Using only the O-bag and the trailer the bike looks neat and tidy.</p></li>
-<li><p>Jackets can be stuffed into the mesh &ndash; as can water bottles. The top of the trailer is an ideal place for the solar panel as it is usually out of the shade.</p></li>
-<li><p>Comes into its own when the bike is folded. Bike can be strapped on top of trailer which can then be used as a trolley suitcase. Numerous adjustments to straps are often necessary.</p></li>
-<li><p>O-bag combination means place to store camera and valuables.</p></li>
-<li><p>Airport staff don&rsquo;t know what to make of it and I have reserved its use for when I am going by car or by ferry.</p></li>
-<li><p>It is often very difficult to find somewhere to park it outside restaurants, museums etc. I frequently clatter into bollards and other inanimate objects. The mudguards are no longer attached.</p></li>
-<li><p>The wheels are 12&Prime; so that&rsquo;s another spare set of tubes to carry but I have not bothered as yet.</p></li>
-</ol>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>CONTAINER ID        IMAGE                          COMMAND                CREATED             STATUS              PORTS                      NAMES
+</span><span class='line'>fa2f01bc791a        paintedfox/postgresql:latest   /scripts/start.sh /s   3 minutes ago       Up 3 minutes        127.0.0.1:5432-&gt;5432/tcp   mad_sammet          </span></code></pre></td></tr></table></div></figure>
+
+
+<h2>RUN</h2>
+
+<p>To start the postgresql image paintedfox, run the following command:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>CID=$(sudo docker run -d  -p 127.0.0.1:5432:5432  -v /data:/data   -e USER="super"  -e DB="test"  -e PASS="Password1"  paintedfox/postgresql);</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>LOGS</h2>
+
+<p>To verify that the DB has started successfully run the following command:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo docker logs $CID</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>STOP</h2>
+
+<p>To stop the container running the PostgreSql DB:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo docker stop $CID</span></code></pre></td></tr></table></div></figure>
+
+
+<h2>SquirrelSql</h2>
+
+<p>You can now connect to the postgresql server from SquirrelSql using the following parameters:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>URL: jdbc:postgresql:test
+</span><span class='line'>User: super
+</span><span class='line'>Password: Password1</span></code></pre></td></tr></table></div></figure>
+
+
 
 ]]></content>
   </entry>
