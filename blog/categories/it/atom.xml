@@ -1,17 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: It | On His Bike]]></title>
+  <title><![CDATA[Category: It | On A Journey]]></title>
   <link href="http://ororker.github.io/blog/categories/it/atom.xml" rel="self"/>
   <link href="http://ororker.github.io/"/>
-  <updated>2014-07-25T21:38:17+01:00</updated>
+  <updated>2014-07-25T21:58:43+01:00</updated>
   <id>http://ororker.github.io/</id>
   <author>
-    <name><![CDATA[Paul Lamarra]]></name>
+    <name><![CDATA[X]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[PostgreSql via REST]]></title>
+    <link href="http://ororker.github.io/blog/2014/07/26/postgresql-via-rest/"/>
+    <updated>2014-07-26T11:11:00+01:00</updated>
+    <id>http://ororker.github.io/blog/2014/07/26/postgresql-via-rest</id>
+    <content type="html"><![CDATA[<p>Investigate accessing <a href="http://rny.io/nginx/postgresql/2013/07/26/simple-api-with-nginx-and-postgresql.html">PostgreSql via REST</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[PostgreSql on Docker]]></title>
